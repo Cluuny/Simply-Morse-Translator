@@ -1,0 +1,105 @@
+/* ------------Pruebas con transiciones----------- */
+/* .header__title--switchable::before{
+  display: inline-block;
+  content: "En";
+  content: "De";
+  transition: 1000ms;
+} */
+/* .header__title--switchable{
+  display: inline-block;
+  transform: rotate(90deg);
+  transition: 1000ms;
+} */
+/* ----------------------------------------------- */
+* {
+  background-color: #f5f5f5;
+}
+.header {
+  padding: 1px;
+}
+.header__tittle {
+  font-family: "Share Tech Mono", monospace;
+  text-align: center;
+  font-size: 40px;
+}
+hr {
+  background-color: black;
+  border-radius: 5px;
+  height: 5px;
+  width: 95vw;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  width: fit-content;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.main__container {
+  display: inline-block;
+  padding: 10px;
+}
+.container__info {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.info__button--play {
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+  float: left;
+}
+.info__span-text {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 20px;
+  text-align: center;
+}
+.info__button--copy {
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+  float: right;
+}
+i[class="fa-regular fa-clipboard"] {
+  font-size: 20px;
+}
+.container__textarea--text,
+.container__textarea--morse {
+  background-color: #fff;
+  padding: 5px;
+  border: 2px solid rgb(102, 102, 102);
+  resize: none;
+  outline: 0;
+}
+.container__textarea--text:hover,
+.container__textarea--morse:hover {
+  border: 2px solid rgb(0, 0, 0);
+}
+.container__textarea--text:focus,
+.container__textarea--morse:focus {
+  border: 2px solid rgb(0, 0, 0);
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  gap: 100px;
+}
+.footer__info--elements {
+  font-family: "Share Tech Mono", monospace;
+  line-height: 1.5;
+  font-size: 18px;
+}
+.footer__info--elements > a {
+  color: black;
+}
+/*
+   ▄▄▄▄
+  ▀▀▄██►
+  ▀▀███►
+   ▀███► █►
+   ▄████▀▀
+ 
+*/

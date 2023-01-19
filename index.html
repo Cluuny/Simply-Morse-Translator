@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/normalize.css" />
+  <link rel="stylesheet" href="/css/balloon.css" />
+  <link rel="stylesheet" href="/css/index.css" />
+  <script src="https://kit.fontawesome.com/d4b5e1cbc2.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+  <title>Simply Morse Translator</title>
+  <!-- <title>Simply Morse Decoder</title> -->
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="header__tittle">
+      Simply Morse <span class="tittle__span-switchable">Translator</span>
+    </h1>
+  </header>
+  <hr />
+  <main>
+    <div class="main">
+      <div class="main__container">
+        <div class="container__info">
+          <button class="info__button--play" aria-label="Play" data-balloon-pos="down">
+            <i class="fa-solid fa-play"></i>
+          </button>
+          <label class="info__span-text" for="container__textarea--text">Text</label>
+          <button class="info__button--copy" aria-label="Copy to clipboard" data-balloon-pos="down">
+            <i class="fa-regular fa-clipboard"></i>
+          </button>
+        </div>
+        <textarea class="container__textarea--text" name="translate-textarea" id="container__textarea--text" cols="45"
+          rows="7"></textarea>
+      </div>
+      <div class="main__container">
+        <div class="container__info">
+          <button class="info__button--play" aria-label="Play" data-balloon-pos="down">
+            <i class="fa-solid fa-play"></i>
+          </button>
+          <label class="info__span-text" for="container__textarea--morse">Morse Code</label>
+          <button class="info__button--copy" aria-label="Copiar al portapapeles" data-balloon-pos="down">
+            <i class="fa-regular fa-clipboard"></i>
+          </button>
+        </div>
+        <textarea class="container__textarea--morse" name="translate-textarea" id="container__textarea--morse" cols="45"
+          rows="7"></textarea>
+      </div>
+    </div>
+  </main>
+  <hr />
+  <footer class="footer">
+    <p class="footer__info--elements">
+      Made with &#128420; by Cluuny
+    </p>
+    <p class="footer__info--elements">Find me at
+      <a href="https://www.instagram.com/matallanaa_/" target="_blank">
+        <i class="fa-brands fa-instagram"> </i></a>
+      <a href="https://twitter.com/Cluuuny" target="_blank">
+        <i class="fa-brands fa-twitter"> </i></a><br />
+    </p>
+    <!-- Enlazar repositorio de GitHub -->
+    <p class="footer__info--elements">
+      View this page on <a href="http://" target="_blank">GitHub</a>
+    </p>
+  </footer>
+</body>
+
+</html>
