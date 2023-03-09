@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "A Simply Morse Translator :)",
   "main": "main.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Tested\""
   },
   "repository": {
     "type": "git",
-    "url": "~/Backend/Simply-Morse-Translator"
+    "url": "https://github.com/Cluuny/Simply-Morse-Translator"
   },
   "keywords": [
     "Morse",
