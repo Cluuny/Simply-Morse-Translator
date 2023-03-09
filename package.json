@@ -1,0 +1,19 @@
+{
+  "name": "simply-morse-translator",
+  "version": "1.0.0",
+  "description": "A Simply Morse Translator :)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Tested\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "~/Backend/Simply-Morse-Translator"
+  },
+  "keywords": [
+    "Morse",
+    "Translator"
+  ],
+  "author": "Cluuny",
+  "license": "ISC"
+}
